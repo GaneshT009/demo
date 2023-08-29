@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table creation</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    </head>
+    <style>
+        body{
+            background-image: url(favicon.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        table,th,td{
+            border: 2px solid black;
+            margin: 2px;
+            border-collapse: collapse;
+            padding: 10px;
+            text-align: center;
+            border-radius: 9px;
+            border-style: double;
+        }
+        tr:nth-child(odd){
+            background-color: grey;
+        }
+        tr:nth-child(even){
+            background-color: aqua;
+        }
+        table{
+            box-shadow: 2px 6px 8px black;
+        }
+        @media screen and (max-width: 600px) {
+            h2{
+                background-color: olive;
+                color: red;
+            }   
+        }
+        table:hover{
+            box-shadow: 2px 6px 8px purple;
+        }
+    </style>
+<body>
+    <h2>Unordered List:</h2>
+    <ul type="Square">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ul>
+    <h2>Ordered List:</h2>
+    <ol type="1">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h2>Nested List:</h2>
+    <ol type="1">
+        <li>Cofee</li>
+        <li>Tea
+            <ol type="i">
+                <li>Black Tea</li>
+                <li>Green Tea</li>
+                <li>Lemon Tea</li>
+            </ol>
+        </li>
+        <li>Milk</li>
+    </ol>
+    <h2>Description List:</h2>
+    <dl>
+        <dt>Coffee-</dt>
+        <dd>Black hot drink</dd>
+        <dt>Milk-</dt>
+        <dd>White cold drink</dd>
+    </dl>
+    <h2>Table Creation:</h2>
+    <table>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>01</td>
+            <td>Joy</td>
+            <td>Pune</td>
+        </tr>
+        <tr>
+            <td>02</td>
+            <td>Raj</td>
+            <td>Mumbai</td>
+        </tr>
+        <tr>
+            <td>03</td>
+            <td>Ganesh</td>
+            <td><abbr title="Old Aurangabad">Chhatrapati Sambhajinagar</abbr></td>
+        </tr>
+    </table>
+    <h2>Iframe:</h2>
+    <iframe src="favicon.png" frameborder="2px"> Content</iframe>
+</body>
+</html>
