@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+body {
+    background-image: linear-gradient(515deg, rgb(79,91,213), rgb(150,47,191), rgb(214,41,118), rgb(250,126,30), rgb(254,218,117));
+    background-repeat: no-repeat;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    margin: 50px auto;
+    flex-direction: column;
+}
+
+section {
+    margin: 20px 5;
+
+}
+
+.main-top {
+    width: 350px;
+    text-align: center;
+    margin-bottom: 5px;
+    padding: 50px 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.logo {
+    margin-bottom: 5px;
+}
+
+.logo img {
+    height: 50px;
+    margin: 0 auto;
+}
+
+.username,
+.password {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 8px 12px;
+    border: 1px solid rgb(219, 219, 219);
+    font-size: 15px;
+    border-radius: 3px;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login-btn {
+    width: 100%;
+    background-color: rgb(56, 151, 240);
+    border: 1px solid rgb(56, 151, 240);
+    padding: 6px 0;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.or {
+    line-height: 50px;
+}
+
+.main-bottom a {
+    margin: 20px 0;
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.fa-facebook-f {
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    font-size: 12px;
+    background-color: rgb(15, 15, 168);
+    width: 20px;
+    text-align: center;
+    height: 20px;
+    padding: 5px;
+}
+
+.bottom {
+    width: 350px;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+
+.signUp a {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(56, 151, 240);
+}
+
+.app-section {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.app-section span {
+    font-size: 16px;
+}
+
+.images {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image1 {
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.google {
+    margin: 0 5px;
+    height: 35px;
+}
+
+.microsoft {
+    margin: 5px 7px;
+    height: 24px;
+}
+
+footer {
+    width: 70%;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer a,
+footer span,
+footer select {
+    font-size: 13px;
+    color: rgb(44, 44, 44);
+    text-decoration: none;
+    margin: 5px;
+}
+
+footer select {
+    outline: none;
+    border: none;
+}
