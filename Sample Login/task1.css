@@ -1,0 +1,116 @@
+body{
+    background-image:  url(backpng2.png), linear-gradient(45deg, rgb(41, 41, 248) 10%, rgb(91, 199, 91)  65%);
+    background-repeat: no-repeat;
+    background-size: 1366px 700px;
+    padding: 4.74%;
+}
+div{
+    font-family: 'Mulish', sans-serif;
+}
+form{
+    background-color: white;
+    box-shadow: 1px 1px 5px black;
+    margin: 0% 35% 0% 35%;
+    padding-left: 15px;
+    text-align: center;
+    padding:9px 0px  9px 0px;
+    /* box-shadow: 0 16px 21px -6px red; --->  If we want add box shadow only in one direction */
+}
+.register{
+    text-align: center;
+    font-size: 24px;
+    color: rgb(1, 1, 124);
+    margin-left: 35px;
+    font-weight: 800;
+}
+.name1{
+    width: 65%;
+    padding: 15px;
+    border: 0px 0px 10px 0px palegreen;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color: rgb(91, 199, 91);
+    outline: none;
+    box-shadow: 0 3px 8px -6px palegreen;  
+    margin-left: 10px;    
+}
+.name2{
+    width: 80%;
+    padding: 15px;
+    background-image: linear-gradient(55deg, rgb(23, 93, 150) 10%,rgb(19, 176, 108) 55%);
+    border-radius:50px;
+    width: 210px;
+    border: none;
+    color: white;
+    font-size:larger;
+    font-family: 'Mulish', sans-serif;
+    font-weight:bold;
+}
+input:focus::placeholder{
+    color: blue;
+    font-size:15px;
+    /* transition:ease-in 0.2s; */
+}
+input:hover::placeholder{
+    color: blue;
+    font-size:15px;
+    transition:ease-in 0.2s;
+}
+.name3{
+    float: left;
+    margin-left: 53px;
+    margin-right: -66px;
+    cursor: pointer;
+}
+.name{
+    float: left;
+    margin-left: 75px;
+    margin-top: 1px;
+    cursor: pointer;
+    font-size: 14px;
+}
+input[class=name1]{
+    padding-left:0px;
+    color: black;
+}
+.name2:hover{
+    cursor: pointer;
+}
+input::placeholder{
+    color: black;
+    font-family: 'Mulish', sans-serif;
+}
+.para{
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+span{
+    font-weight: bold;
+}
+.fa-solid{
+    color: rgb(91, 199, 91);
+    font-weight: 600;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    float: right;
+    margin-right: 16px;
+    margin-top: 5px;
+}
+#pass{
+    margin-left: 30px;
+}
+.fa-regular{
+    padding: 0;
+}
+.fa-regular:hover{
+    color: blue;
+    cursor: pointer;
+}
+.fa-solid:hover{
+    color: darkgreen;
+    cursor: pointer;
+}
+.name2:hover{
+    transform: scale(1.04);
+}
