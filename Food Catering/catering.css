@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    text-align: end;
+    padding-top: 15px;
+    /* background-color: aqua; */
+    height:35px;
+    box-shadow: 1px 2px 6px grey;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    overflow: hidden;
+    font-family: 'Cousine', monospace;
+    z-index: 1; 
+}
+
+.nav-heading{
+    float: left;
+    font-weight: 400;
+    padding-left: 10px;
+}
+
+li{
+    display: inline-block;
+    margin-right: 2%;
+    letter-spacing: 3px;
+}
+
+a{
+    color: black;
+}
+
+.main-container{
+    width: 85%;
+    height: 310px;
+    padding-top: 20%;
+    margin-left: 8%;
+    margin-top: 60px;
+    background-image: url(food1.jpg);
+    background-color: black;
+    background-blend-mode:hard-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 8px grey;  
+    border-radius: 8px;  
+}
+
+.label{
+    position:absolute;
+    margin-top:260px;
+    margin-left: 30px;
+    letter-spacing: 6px;
+    font-size: x-large;
+    background-color:rgba(255, 250, 250, 0.5);
+    padding: 2px 8px 2px 8px;
+}
+
+.second{
+    /* background-color: aqua; */
+    height: 684px;
+    width: 85%;
+    margin-left: 8%;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+
+.image1{
+    /* background-color: red; */
+    /* height: 684px; */
+    width: 40%;
+    float: left;
+    margin-right: 60px;
+    background-image: url(food2.jpg);
+    background-color: black;
+    background-blend-mode:hard-light;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 3px 3px 8px grey; 
+    border-radius: 8px;
+}
+
+.content1{
+    height: 684px;
+    width: 40%;
+    /* background-color: blue; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.sub-heading{
+    text-align: center;
+    letter-spacing: 4px;
+}
+
+.details{
+    text-align:justify;
+    word-spacing: 3px;
+    line-height: 31px;
+    overflow: hidden;
+}
+
+.third{
+        /* background-color: aqua; */
+        height: 684px;
+        width: 85%;
+        margin-left: 8%;
+        margin-top: 100px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+}
+
+.content2{
+    /* background-color: red; */
+    height: 684px;
+    width: 40%;
+    float: left;
+    margin-right: 60px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 31px;
+}
+
+.image2{
+    height: 684px;
+    width: 40%;
+    /* background-color: blue; */
+    background-image: url(food3.jpg);
+    background-color: black;
+    background-blend-mode:hard-light;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    box-shadow: 3px 3px 8px grey; 
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.heading2{
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.sub-heading2{
+    text-align: left;
+    letter-spacing: 4px;
+}
+
+.details2{
+    text-align: left;
+}
+
+.footer{
+    margin-bottom: 30px;
+    margin-left: 20px;
+    margin-top: 100px;
+    font-size: 14px;
+    /* display: flex;
+    flex-direction:row; 
+    justify-content:end; */
+    text-align:center;
+}
+
+sup{
+    font-size:9px;
+}
+
+.image1:hover{
+    background-image: url(food2.jpg);
+    background-blend-mode: lighten; 
+}
+
+.image2:hover{
+    background-image: url(food3.jpg);
+    background-blend-mode: lighten; 
+}
+
+.main-container:hover{
+    background-image: url(food1.jpg);
+    background-blend-mode: lighten; 
+    background-size: cover;
+}
