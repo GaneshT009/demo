@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Task Web Site</title>
+</head>
+
+<body>
+
+    <div class="main">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand ms-4 logo" href="#">👻</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item text-li">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item text-li">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item text-li">
+                            <a class="nav-link" href="#">Services</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex ms-4" role="search">
+                        <button type="button" class="btn btn-outline-danger btn-md me-2">Login</button>
+                        <button type="button" class="btn btn-outline-danger btn-md ms-1 me-2">SignUp</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Slider -->
+        <div style="box-shadow: 2px 2px 8px grey;" id="carouselExampleCaptions" class="carousel slide"
+            data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner corousel-bg">
+                <div class="carousel-item active">
+                    <div class="row ">
+                        <div class="col-6 content1">
+                            <h2 class="text-dark">Welcome to our Website</h2><br>
+                            <p class="text-dark">
+                                Welcome to our organization! We are happy to have you here.We want you to feel supported
+                                and
+                                valued as you start your journey with us, so please don't hesitate to reach out if you
+                                have
+                                any questions or need help with anything.</p>
+                            <div class="talk-button">
+                                <button type="button" class="btn btn-primary button1">Talk</button>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="/Task WebSite/Assets/slider-image1.jpg" class="d-block w-100 slide1-image" alt="image1">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row ">
+                        <div class="col-6 content1">
+                            <h2 class="text-dark">Creative <span
+                                    class="span3 text-white bg-dark rounded-circle">Ideas</span> makes Innovations
+                            </h2><br>
+                            <p class="text-dark">
+                                Innovation is the process of continuously improving the usability and quality of the web
+                                to
+                                meet and exceed user expectations. Innovation involves finding creative or unique ways
+                                to
+                                improve the elements of the web or engage the web's audience.</p>
+                            <div class="talk-button">
+                                <button type="button" class="btn btn-primary button1">Talk</button>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="/Task Website/Assets/slider-image2.jpg" class="d-block w-100 slide1-image" alt="image1">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row ">
+                        <div class="col-6 content1">
+                            <h2 class="text-dark">Determination towards <span
+                                    class="span3 text-white bg-dark rounded-circle">Dedication</span></h2><br>
+                            <p class="text-dark"> Trust gives strength and strength gives birth to determination which
+                                leads
+                                to dedication. Devoted and dedicated people never become
+                                a part of a problem.</p>
+                            <div class="talk-button">
+                                <button type="button" class="btn btn-primary button1">Talk</button>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <img src="/Task Website/Assets/slider-image3.jpg" class="d-block w-100 slide1-image" alt="image1">
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="slider-button1 fa-solid fa-chevron-left text-muted" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="slider-button1 fa-solid fa-chevron-right text-muted" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!-- Who is Owner -->
+        <div class="container">
+        <div class="row my-5 justify-content-between">
+            <div class="col-3 my-2" style="width: 18rem;">
+                <img src="/Task WebSite/Assets/owner-image.jpg" class="card-img-top rounded-circle" alt="...">
+                <h6 class="card-text my-3 ms-5">Capt. Jack Sparrow (USA)</h6>
+                <button type="button" class="btn"><a href="#">Read More &#187;</a></button>
+
+            </div>
+            <div class="col-9 bio">
+                <h2 class="my-3">Capt. Jack Sparrow (USA)</h2>
+                <i>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur dolor error at, ad corporis est
+                    velit optio natus provident. Error sunt obcaecati repellat quibusdam adipisci odit, sint, illo dolor
+                    consequuntur tenetur debitis recusandae maxime voluptatibus excepturi maiores, porro fugit aliquam.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam dignissimos et similique
+                    consequatur facere in eveniet enim nesciunt cupiditate? Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Beatae cum iure fuga. Voluptatum architecto consequatur, labore accusamus quam
+                    quas a.</i>
+
+                <div class="card-group my-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Visit Profile</h5>
+                            <hr>
+                            <a class="text-dark" href="#"><i class="fa-brands fa-github me-2"></i>Github</a>
+                            <a class="text-dark ms-2" href="#"><i class="fa-brands fa-linkedin me-2"></i>LinkedIn</a>
+                            <a class="text-dark ms-2" href="#"><i class="fa-brands fa-facebook me-2"></i>Facebook</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Skill Rating</h5>
+                            <hr>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-regular fa-star-half-stroke"></i>
+                            <i class="ms-2">4.5/5</i>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Bookmark Profile</h5>
+                            <hr>
+                            <div class="badge align-items-center p-1 pe-2 text-dark border border-muted rounded-pill">
+                                <img src="/Assets/owner-image.jpg" class="rounded-circle me-1" width="24" height="24"
+                                    src="https://github.com/mdo.png" alt="">
+                                Capt. Jack Sparrow (USA) <a href="#"><i class="fa-regular fa-bookmark ms-2"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div><hr class="my-5">
+        </div>
+        
+        <!-- Services -->
+        <div class="container">
+            <h2>| Services</h2><br><br>
+            <div class="row justify-content-around">
+                <div class="card mb-3 col-3 service-card">
+                    <h1 class="service-logo">👻</h1>
+                    <div class="card-header">Service 1</div>
+                    <div class="card-body">
+                        <h5 class="card-title my-1">Service 1</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ullam in voluptas placeat mollitia nisi fugit repellat nulla!</p>
+                        <a href="#">Register Now &#187;</a>
+                    </div>
+                </div>
+                <div class="card mb-3 col-3 service-card">
+                    <h1 class="service-logo">👻</h1>
+                    <div class="card-header">Service 2</div>
+                    <div class="card-body">
+                        <h5 class="card-title my-1">Service 2</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ullam in voluptas placeat mollitia nisi fugit repellat nulla!</p>
+                        <a href="#">Register Now &#187;</a>
+                    </div>
+                </div>
+                <div class="card mb-3 col-3 service-card">
+                    <h1 class="service-logo">👻</h1>
+                    <div class="card-header">Service 3</div>
+                    <div class="card-body">
+                        <h5 class="card-title my-1">Service 3</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ullam in voluptas placeat mollitia nisi fugit repellat nulla!</p>
+                        <a href="#">Register Now &#187;</a>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-4 justify-content-around">
+                <div class="card mb-3 col-3 service-card">
+                    <h1 class="service-logo">👻</h1>
+                    <div class="card-header">Service 4</div>
+                    <div class="card-body">
+                        <h5 class="card-title my-1">Service 4</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ullam in voluptas placeat mollitia nisi fugit repellat nulla!</p>
+                        <a href="#">Register Now &#187;</a>
+                    </div>
+                </div>
+                <div class="card mb-3 col-3 service-card">
+                    <h1 class="service-logo">👻</h1>
+                    <div class="card-header">Service 5</div>
+                    <div class="card-body">
+                        <h5 class="card-title my-1">Service 5</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ullam in voluptas placeat mollitia nisi fugit repellat nulla!</p>
+                        <a href="#">Register Now &#187;</a>
+                    </div>
+                </div>
+                <div class="card mb-3 col-3 service-card">
+                    <h1 class="service-logo">👻</h1>
+                    <div class="card-header">Service 6</div>
+                    <div class="card-body">
+                        <h5 class="card-title my-1">Service 6</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta ullam in voluptas placeat mollitia nisi fugit repellat nulla!</p>
+                        <a href="#">Register Now &#187;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="container-fluid">
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+            <p class="col-md-4 mb-0 text-body-secondary">© 2023 Bhoot Company, Inc Designed By Ganesh Thombare</p>
+        
+            <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+              <h2>👻</h2>
+            </a>
+        
+            <ul class="nav col-md-4 justify-content-end">
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+              <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+          </footer>
+        </div>
+    </div>
+</body>
+
+</html>
